@@ -95,7 +95,7 @@ def find_package_data(
 
 
 PACKAGE = "libpythonpro"
-NAME = "libGetAvatGitHub"
+NAME = "libGetAvatarGitHub"
 DESCRIPTION = "Módulo criado para exemplificar construção de projetos Python no curso PyTools"
 AUTHOR = "Walter Schmidt"
 AUTHOR_EMAIL = "suporte@python.pro.br"
