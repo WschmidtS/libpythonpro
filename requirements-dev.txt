@@ -10,5 +10,5 @@ atomicwrites==1.0
 more-itertools==4.0.0
 py==1.5.0
 pluggy==1.0
-attrs==17.4.0
+attrs==19.3.0
 -r requirements.txt
