@@ -8,7 +8,7 @@ pyparsing==2.0.2
 #Deps pytest
 atomicwrites==1.0
 more-itertools==4.0.0
-py==1.5.0
+py==1.8.1
 pluggy==1.0
 attrs==17.4.0
 -r requirements.txt
