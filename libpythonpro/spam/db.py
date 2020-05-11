@@ -8,7 +8,7 @@ class Sessao:
         self.usuarios.append(usuario)
 
     def roll_back(self):
-        pass
+        self.usuarios.clear()
 
     def fechar(self):
         pass
