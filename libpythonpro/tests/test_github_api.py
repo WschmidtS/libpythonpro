@@ -18,10 +18,12 @@ def avatar_url():
     yield url
     github_api.requests.get = get_original
 
+
 def test_buscar_avatar(avatar_url):
-   url = github_api.buscar_avatar('WschmidtS')
-   assert avatar_url == url
+    url = github_api.buscar_avatar('WschmidtS')
+    assert avatar_url == url
+
 
 def test_buscar_avatar_integracao():
-   url = github_api.buscar_avatar('WschmidtS')
-   assert 'https://avatars2.githubusercontent.com/u/63677631?v=4' == url
+    url = github_api.buscar_avatar('WschmidtS')
+    assert 'https://avatars2.githubusercontent.com/u/63677631?v=4' == url
