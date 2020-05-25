@@ -14,9 +14,8 @@ Suportada versão 3 de Python
 
 Para instalar:
 ```console
-python 3 - m venv venv
-venv\Scripts\activate
-pip install -r requirements-dev.txt
+pip install -q pipenv codecov
+pipenv sync --dev
 ```
 Para conferir qualidade de código:
 ```console
@@ -27,4 +26,4 @@ Tópicos a serem abordados:
 1. Git
 2. Vitualenv
 3. Pip
-
+4. Pipenv
